@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+	head
+		title #{title}
+	body
+		mixin printName(name)
+			p Hi #{name}
+		case name
+			when "Karthik"
+				+printName("Karthik")
+			when "Ganesh"
+				+printName("Ganesh")
+			default
+				+printName("Guest")
+					

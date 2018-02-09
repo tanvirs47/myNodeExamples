@@ -1,0 +1,78 @@
+::1 - - [09/Feb/2018:06:20:47 +0000] "GET /login HTTP/1.1" 304 -
+::1 - - [09/Feb/2018:06:20:48 +0000] "GET / HTTP/1.1" 200 13
+::1 - - [09/Feb/2018:06:20:57 +0000] "GET / HTTP/1.1" 304 -
+::1 - - [09/Feb/2018:06:24:51 +0000] "GET / HTTP/1.1" 304 -
+::1 - - [09/Feb/2018:06:24:56 +0000] "GET /login HTTP/1.1" 200 2865
+::1 - - [09/Feb/2018:06:35:00 +0000] "GET /login HTTP/1.1" 200 2869
+::1 - - [09/Feb/2018:06:35:03 +0000] "GET / HTTP/1.1" 200 96
+::1 - - [09/Feb/2018:06:35:05 +0000] "GET / HTTP/1.1" 304 -
+::1 - - [09/Feb/2018:06:36:30 +0000] "GET / HTTP/1.1" 200 2154
+::1 - - [09/Feb/2018:06:36:33 +0000] "GET / HTTP/1.1" 304 -
+::1 - - [09/Feb/2018:06:36:34 +0000] "GET / HTTP/1.1" 304 -
+::1 - - [09/Feb/2018:06:36:35 +0000] "GET /adduser HTTP/1.1" 200 3031
+::1 - - [09/Feb/2018:06:36:37 +0000] "GET /login HTTP/1.1" 304 -
+::1 - - [09/Feb/2018:06:36:38 +0000] "GET /emp HTTP/1.1" 404 142
+Tanvir GET / 11.676
+Tanvir GET /adduser 3.597
+Tanvir GET / 5.233
+Tanvir GET / 3.306
+Tanvir GET /login 5.056
+Tanvir POST /loginprocess -
+Tanvir GET /login 3.809
+Tanvir GET / 3.297
+Tanvir GET /adduser 3.603
+Tanvir GET /login 2.633
+Tanvir GET /addemp 7.103
+Tanvir GET /login 4.461
+Tanvir GET /adduser 3.887
+Tanvir GET / 3.138
+Tanvir GET / 11.908
+Tanvir GET /adduser 5.546
+Tanvir POST /useraddprocess 34.770
+Tanvir GET /login 3.978
+Tanvir GET /login 11.552
+Tanvir GET / 6.753
+Tanvir GET / 5.657
+Tanvir GET / 3.353
+Tanvir GET / 2.769
+Tanvir GET / 2.984
+Tanvir GET /adduser 6.585
+Tanvir POST /useraddprocess -
+Tanvir GET /adduser 2.568
+Tanvir GET / 11.593
+Tanvir GET / 7.238
+Tanvir GET /adduser 5.704
+Tanvir GET /adduser 6.830
+Tanvir GET / 2.391
+Tanvir GET /adduser 3.884
+Tanvir POST /useraddprocess 163.950
+Tanvir GET /login 2.062
+Tanvir POST /loginprocess -
+Tanvir GET / 13.703
+Tanvir GET /login 6.199
+Tanvir GET /login 12.293
+Tanvir GET /login 14.617
+Tanvir GET /login 13.240
+Tanvir GET / 12.355
+Tanvir GET / 4.284
+Tanvir GET /adduser 5.254
+Tanvir POST /useraddprocess 184.859
+Tanvir GET /login 3.604
+Tanvir POST /loginprocess 137.793
+Tanvir GET /addemp 3.097
+Tanvir GET /login 4.033
+Tanvir GET /addemp 4.942
+Tanvir GET /login 3.176
+Tanvir POST /loginprocess -
+Tanvir GET / 4.986
+Tanvir GET / 12.317
+Tanvir GET /login 5.786
+Tanvir GET /login 17.736
+Tanvir GET /login 14.034
+Tanvir GET / 5.301
+Tanvir GET / 5.391
+Tanvir GET / 2.803
+Tanvir GET / 3.532
+Tanvir GET /login 3.472
+Tanvir POST /loginprocess 148.126
+Tanvir GET /login 11.459

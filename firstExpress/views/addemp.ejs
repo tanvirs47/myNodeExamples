@@ -1,0 +1,25 @@
+<%- include('header'); %>
+  <div class="container">
+  
+    <form method="post" action="/processemp">
+        <div class="form-group">
+            <label for="empid">Employee id</label>
+            <input type="number" class="form-control" id="empid" name="empid"/>
+        </div>
+        <div class="form-group">
+            <label for="empname">Name</label>
+            <input type="text" class="form-control" id="empname" name="empname" />
+        </div>
+        <div class="form-group">
+            <label for="phone">Mobile</label>
+            <input type="text" class="form-control" id="phone" name="phone" />
+        </div>
+        <div class="form-group">
+            <label for="emailid">Email</label>
+            <input type="email" class="form-control" id="emailid" name="emailid" />
+        </div>
+        
+        <input type="submit" class="btn btn-primary" />
+    </form>
+    <!-- Content here -->
+<%- include('footer'); %>

@@ -1,0 +1,13 @@
+Pass variables to jade template from commandline
+==========================================
+
+You need to use the option -O/--obj within the Jade CLI. It accepts 2 type of values:
+
+Serialized JSON
+A path to a JSON file (this takes precedence)
+For example:
+
+jade -O myfile.json template.jade
+or
+
+jade --obj { "cache": true } template.jade

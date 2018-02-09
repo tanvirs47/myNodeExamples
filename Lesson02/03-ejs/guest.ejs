@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title><%= title %></title>
+		<style>
+			body {
+				font-family: candara;
+				font-size: 12pt;
+				background: #eee;
+			}
+		</style>
+	</head>
+	<body>
+		<h1><%= heading %></h1>
+		<table border="1">
+			<thead>
+				<tr style="background-color:yellow">
+					<th>Id</th>
+					<th>Name</th>
+					<th>Contact Number</th>
+					<th>Location</th>
+				</tr>
+			</thead>
+			<tbody>
+				<% for(var counter=0; counter<guests.length; counter++) { %>
+					<tr>
+						<td><%= guests[counter].guestId %></td>
+						<td><%= guests[counter].guestName %></td>
+						<td><%= guests[counter].contactNumber %></td>
+						<td><%= guests[counter].location %></td>
+					</tr>
+                <% } %>
+			</tbody>
+		</table>
+	</body>
+</html>
+	
+			

@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+	head
+		title #{title}
+		link(rel='stylesheet',href='guest.css')
+	body
+		h1 Guest Details
+		table(border="1")
+			thead
+				tr(style={'background-color': 'yellow'})
+					th Id
+					th Name
+					th Contact Number
+					th Location
+			tbody
+				each guest,i in guests
+					tr
+						td #{guest.guestId}
+						td #{guest.guestName}
+						td #{guest.contactNumber}
+						td #{guest.location}
+						
+						

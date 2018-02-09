@@ -1,0 +1,15 @@
+{
+  "name": "04-Connect",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Test.js",
+  "dependencies": {
+    "connect": "3.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node test"
+  },
+  "author": "Karthik",
+  "license": "ISC"
+}

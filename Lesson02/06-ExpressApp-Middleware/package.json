@@ -1,0 +1,14 @@
+{
+  "name": "ExpressApp",
+  "version": "1.0.0",
+  "description": "Express.js 4.0 App",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.10.7"
+  },
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Karthik.M <karthik.muthukrishnan@igate.com>",
+  "license": "ISC"
+}
