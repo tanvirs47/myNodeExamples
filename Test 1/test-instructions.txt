@@ -1,0 +1,31 @@
+==========================================================================
+
+   AVIVA FRONT END DEVELOPMENT CODING TEST
+
+==========================================================================
+
+
+Here are Photoshop and JPEG designs of a fictional Aviva web page shown in 
+both small and large screen views. 
+
+Please spend up to 4 hours building a responsive web page based upon these
+designs, including any HTML, CSS and JavaScript you feel is necessary. It
+is ok if you do not produce a complete page, just complete whatever you can
+within the time given as the result will be primarily assessed on the 
+quality of the code produced.
+
+The aim of the test is to assess your coding ability and so if you use any 
+libraries or frameworks to assist in your build then please clearly indicate 
+which code is your own and which is not. Please avoid using a build process 
+if possible. If you do need to use one then please include the compiled 
+files as well as the originals.
+
+
+
+=================================================
+Labraries used:
+==================================================
+1. Bootstrap - for responsive designing
+2. jquery - supporting for bootstrap
+3. Fontawesome for icons
+5. Style.css is written by myself.
